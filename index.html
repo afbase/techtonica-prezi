@@ -17,6 +17,7 @@
 		<script src="https://kit.fontawesome.com/77b513d88d.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/typebase.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -39,30 +40,190 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown>
-					<textarea data-template>
-						## Continuous Integration + Continuous Delivery
-
-						(CI/CD)
-					</textarea>
-					
-				</section>
-				<section data-markdown>
-					<textarea data-template>
-						## Continuous Integration (CI)
-
-						A paragraph with some text and a [link](http://hakim.se).
-						  1. What is CI?
-						  1. 
-					</textarea>
-				</section>
 				<section>
-				<h1>Continuous Delivery (CD)</h1>
-
-				<ul class="list-group">
-					<li class="list-group-item">What is it?</li>
-					<li class="list-group-item">What is the alternative to CD?</li>
-				</ul>
+					<h1>Who Am I</h1>
+					<div class="container">
+						<div class="row">
+						  	<div class="col">
+								<img class="rounded mx-auto d-block" src="img/profile.png">
+						  	</div>
+						  	<div class="col">
+									<h5>Clinton Bowen</h5>
+									<ul class="list-group bg-dark">
+										<li class="list-group-item text-wrap bg-dark">Security Engineer @pantheon</li>
+										<li class="list-group-item text-wrap bg-dark">Avid tea drinker</li>
+										<li class="list-group-item text-wrap bg-dark"><a class="navbar-brand" href="https://twitter.com/mauricebeauxen"><i class="fab fa-twitter-square"></i></a>
+										</li>
+									</ul>									  
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Intro Slide For CI -->
+				<section>
+					<h2>Continuous Integration (CI)</h2>
+					<div class="container-fluid">
+						<div class="row">
+						  	<div class="col">
+								<ul class="list-group bg-dark">
+									<li class="list-group-item bg-dark">What is it?</li>
+								</ul>
+						  	</div>
+						  	<div class="col">
+								<div class="container">
+									<div class="row">
+										<div class="container-fluid">
+											<p><i>CI</i> is the practice of merging new code into trunk/master.</p>
+										</div>
+									</div>
+								</div>								  
+							</div>
+						</div>
+						<div class="row">
+							<div class="row">
+								<div class="container-fluid">
+									<img src="img/git-tree-2.png">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Benefits Slide For CI -->
+				<section>
+					<h2>Continuous Integration (CI)</h2>
+					<div class="container-fluid">
+						<div class="row">
+						  	<div class="col">
+								<ul class="list-group bg-dark">
+									<li class="list-group-item bg-dark">What do we gain from CI?</li>
+								</ul>
+						  	</div>
+						  	<div class="col">
+								<div class="container">
+									<div class="row">
+										<div class="container-fluid bg-dark">
+											<ul class="list-group bg-dark">
+												<li class="list-group-item bg-dark">Adapt to User Needs (Features) <i class="fas fa-user-edit"></i></li>
+												<li class="list-group-item bg-dark">Fix bugs <i class="far fa-bug"></i></li>
+												<li class="list-group-item bg-dark">Pivot to market forces faster <i class="fas fa-chart-line"></i></li>
+												<li class="list-group-item bg-dark">Adjust to compliance/security/regulations <i class="fad fa-gavel"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>								  
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Outro Slide For CI -->
+				<section>
+					<h2>Continuous Integration (CI)</h2>
+					<div class="container-fluid">
+						<div class="row">
+						  	<div class="col">
+								<ul class="list-group bg-dark">
+									<li class="list-group-item bg-dark">What is the alternative to CD?</li>
+								</ul>
+						  	</div>
+						  	<div class="col">
+								<div class="container">
+									<div class="row">
+										<div class="container-fluid bg-dark">
+											<p>Divergence of trunk/master</p>
+										</div>
+									</div>
+								</div>								  
+							</div>
+						</div>
+						<div class="row">
+							<div class="row">
+								<div class="container">
+									<a href="https://nationalinterest.org/blog/buzz/f-35-fail-stealth-fighter-still-has-883-problems-andtheres-no-solution-sight-133127"><img class="resize" src="img/jsf.png"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Intro Slide For CD -->
+				<section>
+					<h2>Continuous Delivery (CD)</h2>
+					<div class="container-fluid">
+						<div class="row">
+						  	<div class="col">
+								<ul class="list-group bg-dark">
+									<li class="list-group-item bg-dark">What is it?</li>
+								</ul>
+						  	</div>
+						  	<div class="col">
+								<div class="container">
+									<div class="row">
+										<div class="container-fluid">
+											<p><i>CD</i> gets the CI into the hands of users</p>
+										</div>
+									</div>
+								</div>								  
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="container-fluid">
+									<iframe src="https://giphy.com/embed/VsV8tiW7YulGg" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Benefits Slide For CD -->
+				<section>
+					<h2>Continuous Delivery (CD)</h2>
+					<div class="container-fluid">
+						<div class="row">
+						  	<div class="col">
+								<ul class="list-group bg-dark">
+									<li class="list-group-item bg-dark">What do we gain from CD?</li>
+								</ul>
+						  	</div>
+						  	<div class="col">
+								<div class="container">
+									<div class="row">
+										<div class="container-fluid bg-dark">
+											<ul class="list-group bg-dark">
+												<li class="list-group-item bg-dark">Deployment Automation <i class="fad fa-user-robot"></i></li>
+												<li class="list-group-item bg-dark">Continuous Testing <i class="fad fa-vials"></i></li>
+												<li class="list-group-item bg-dark">Continuous Monitoring <i class="fad fa-monitor-heart-rate"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>								  
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Outro Slide For CD -->
+				<section>
+					<h2>Continuous Delivery (CD)</h2>
+					<div class="container-fluid">
+						<div class="row">
+						  	<div class="col">
+								<ul class="list-group bg-dark">
+									<li class="list-group-item bg-dark">What is the alternative to CD?</li>
+								</ul>
+						  	</div>
+						  	<div class="col">
+								<div class="container">
+									<div class="row">
+										<div class="container-fluid bg-dark">
+											<ul class="list-group bg-dark">
+												<li class="list-group-item bg-dark">Less Deployment Pain</li>
+												<li class="list-group-item bg-dark">Burnout</li>
+												<li class="list-group-item bg-dark">Less Agility</li>
+											</ul>
+										</div>
+									</div>
+								</div>								  
+							</div>
+						</div>
+					</div>
 				</section>
 			</div>
 		</div>
